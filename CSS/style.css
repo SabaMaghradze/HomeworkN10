@@ -1,0 +1,41 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto
+}
+
+header {
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+ul li {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.action {
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.section1 {
+    padding: 64px 165px;
+    display: flex;
+    gap: 130px;
+}
