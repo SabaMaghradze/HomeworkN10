@@ -34,13 +34,16 @@ ul li {
 }
 
 .section1 {
+    width: 100%;
     padding: 64px 165px;
     display: flex;
-    gap: 130px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-
+.content {
+    width: 40%;
+}
 
 .firstText {
     font-weight: 900;
@@ -67,18 +70,16 @@ ul li {
 }
 
 .section2 {
+    width: 100%;
     padding: 64px 150px;
     background: #F3F3F3;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
 }
 
-/* .sect2Content {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-} */
+.group {
+    width: 30%;
+}
 
 .circleNHeading {
     display: flex;
@@ -102,6 +103,7 @@ ul li {
 .longT {
     font-weight: 400;
     font-size: 16px;
+    line-height: 24px;
 }
 
 .section3 {
