@@ -69,13 +69,16 @@ ul li {
 .section2 {
     padding: 64px 150px;
     background: #F3F3F3;
-}
-
-.sect2Content {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
+
+/* .sect2Content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+} */
 
 .circleNHeading {
     display: flex;
@@ -136,10 +139,9 @@ ul li {
 
 .section4 {
     background-image: url(../Images/dgmxybg4kb7eab7x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 192px 450px;
-}
-
-.sect4Div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,16 +179,18 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .columns {
     color: white;
     display: flex;
     justify-content: space-between;
-    gap: 141px;
+    /* gap: 141px; */
 }
 
 .footerList {
+    width: 228px;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -195,12 +199,14 @@ footer {
 h4 {
     font-weight: 700;
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 h5 {
     font-weight: 400;
     font-size: 14px;
 }
+
+
 
 /* responsive ver movaswari */
