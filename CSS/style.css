@@ -5,6 +5,7 @@
 }
 
 header {
+    width: 100%;
     padding: 24px 32px;
     display: flex;
     justify-content: space-between;
